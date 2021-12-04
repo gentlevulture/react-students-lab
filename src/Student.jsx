@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Student = () => {
+const Student = (props) => {
   return (
     <div className="student">
-
+      <h2>{props.name}, {props.bio}</h2>
     </div>
   )
 }

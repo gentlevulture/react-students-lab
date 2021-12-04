@@ -12,6 +12,7 @@ const students = studentsArray.map((e, index) => {
     name={e.name}
     bio={e.bio}
     score={e.scores}
+    key={index}
     />
   )
 })
@@ -19,7 +20,7 @@ console.log(students)
 
   return (
     <div className="App">
-
+      {students}
     </div>
   );
 }
