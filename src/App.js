@@ -11,11 +11,13 @@ const students = studentsArray.map((e, index) => {
     <Student 
     name={e.name}
     bio={e.bio}
-    score={e.scores}
+    scores={e.scores}
     key={index}
     />
   )
 })
+
+
 console.log(students)
 
   return (
@@ -24,3 +26,14 @@ console.log(students)
     </div>
   );
 }
+  
+
+
+
+
+//   return (
+//     students.map(data, j) => {
+
+//     }
+//   )
+// }
